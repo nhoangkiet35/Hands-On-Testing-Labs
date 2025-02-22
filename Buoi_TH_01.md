@@ -50,6 +50,7 @@
 
 - Truy cập repository trên GitHub, vào Settings > Collaborators.
 - Invite người dùng khác tham gia và chờ họ accept lời mời.
+  ![image](images/TH-01-invite-people-join.png)
 
 ### 4. Tạo branch và yêu cầu cộng tác viên thêm chức năng 2
 
@@ -60,6 +61,7 @@
   ```
 
 - Yêu cầu người tham gia viết hàm kiểm tra năm nhuận và commit code vào branch này.
+  ![image](images/TH-01-feature-02.png)
 
 ### 5. Merge branch mới vào branch
 
@@ -72,3 +74,4 @@
   ```
 
 - Kiểm tra trên GitHub repository đảm bảo mã nguồn đã được merge thành công.
+  [image](images/TH-01-merge-2-branch.png)
