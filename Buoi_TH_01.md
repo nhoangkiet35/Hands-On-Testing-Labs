@@ -6,9 +6,8 @@
 
    Viết một chương trình tạo một menu có 2 chức năng:
 
-   Chức năng 1: cho người dùng nhập một số nguyên dương và kiểm tra xem số đó có phải là số nguyên tố hay không ?
-
-   Chức năng 2: cho người dùng nhập vào một năm và kiểm tra xem có phải là năm nhuận hay không ?
+   1. Chức năng 1: cho người dùng nhập một số nguyên dương và kiểm tra xem số đó có phải là số nguyên tố hay không ?
+   2. Chức năng 2: cho người dùng nhập vào một năm và kiểm tra xem có phải là năm nhuận hay không ?
 
    Bạn hãy viết chức năng 1 cho chương trình
 
@@ -20,7 +19,7 @@
 
    Sau đó push cập nhật len branch mới
 
-3. Merge branch mới vào branch main
+3. Merge branch mới vào main
 
 ## Bài làm
 
@@ -63,7 +62,7 @@
 - Yêu cầu người tham gia viết hàm kiểm tra năm nhuận và commit code vào branch này.
   ![image](images/TH-01-feature-02.png)
 
-### 5. Merge branch mới vào branch
+### 5. Merge branch mới vào main
 
 - Sau khi cộng tác viên push cập nhật lên branch feature-leap-year-check, tiến hành merge:
 
@@ -74,4 +73,15 @@
   ```
 
 - Kiểm tra trên GitHub repository đảm bảo mã nguồn đã được merge thành công.
-  [image](images/TH-01-merge-2-branch.png)
+  ![image](images/TH-01-merge-2-branch.png)
+
+## Kết quả
+
+Dự án đã hoàn thành với 2 chức năng chính:
+
+1. Kiểm tra số nguyên tố.
+2. Kiểm tra năm nhuận (do cộng tác viên thực hiện).
+
+Code đã được đẩy lên GitHub và merge thành công vào branch `main`.
+
+![image](images/TH-01-result.png)
