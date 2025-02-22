@@ -13,6 +13,10 @@ bool isPrime(int num)
     return true;
 }
 
+bool isLeapYear(int year) {
+    return (year % 4 == 0 && year % 100 != 0) || (year % 400 == 0);
+}
+
 int main()
 {
     int choice;
@@ -31,6 +35,14 @@ int main()
                 cout << num << " là số nguyên tố.\n";
             else
                 cout << num << " không phải là số nguyên tố.\n";
+        } else if (choice == 2) {
+            int year;
+            cout << "Nhập một năm: ";
+            cin >> year;
+            if (isLeapYear(year))
+                cout << year << " là năm nhuận.\n";
+            else
+                cout << year << " không phải là năm nhuận.\n";
         }
     } while (choice != 3);
     return 0;
