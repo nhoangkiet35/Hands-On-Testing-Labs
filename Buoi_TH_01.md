@@ -1,6 +1,6 @@
-# Bai tap Git/GitHub
+# Bài Tập Git/GitHub
 
-## De bai
+## Đề bài
 
 1. Tạo một Project C++ bằng Visual Studio:
 
@@ -22,12 +22,13 @@
 
 3. Merge branch mới vào branch main
 
-## Bai lam
+## Bài làm
 
-### 1. Tạo Project C++ bằng Visual Studio
+### 1. Tạo Project C++ bằng Visual Studio Code
 
 - Mình đã tạo một project C++ trong Visual Studio và đặt tên project là `PrimeLeapYearCheck`.
-- Dưới đây là code cho chức năng 1:
+- Dưới đây là code cho chức năng 1: Kiểm tra số nguyên tố nguyên dương
+  ![image](images/TH-01-feature-01.png)
 
 ### 2. Đẩy project lên GitHub
 
@@ -37,12 +38,13 @@
   ```bash
   git init
   git add .
-  git commit -m "Initial commit with prime number check function"
-  git remote add origin <GitHub_URL>
+  git commit -m "first commit"
+  git remote add origin https://github.com/nhoangkiet35/Hands-On-Testing-Labs
   git push -u origin main
   ```
 
 - Đồng thời, đã kiểm tra GitHub repository đã nhận code hay chưa.
+  ![image](images/TH-01-github-repo.png)
 
 ### 3. Mời người khác tham gia vào project
 
