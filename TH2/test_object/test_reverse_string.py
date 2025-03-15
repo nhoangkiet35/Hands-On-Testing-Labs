@@ -1,7 +1,9 @@
 from object.reverse_string import reverse_string
 
+
 def test_empty_string():
     assert reverse_string("") == ""
+
 
 def test_single_character_string():
     assert reverse_string("a") == "a"
@@ -9,12 +11,14 @@ def test_single_character_string():
     assert reverse_string("!") == "!"
     assert reverse_string("@") == "@"
 
+
 def test_multiple_character_string():
     assert reverse_string("abc") == "cba"
     assert reverse_string("123") == "321"
     assert reverse_string("!@#") == "#@!"
     assert reverse_string("@#$") == "$#@"
     assert reverse_string("hello") == "olleh"
+
 
 def test_string_with_spaces():
     assert reverse_string("hello world") == "dlrow olleh"
