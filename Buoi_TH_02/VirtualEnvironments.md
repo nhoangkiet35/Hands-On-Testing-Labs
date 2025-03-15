@@ -5,7 +5,7 @@ The module used to create and manage virtual environments is called venv. venv w
 To create a virtual environment, decide upon a directory where you want to place it, and run the venv module as a script with the directory path:
 
 ```bash
-python -m venv tutorial-env
+python -m venv .venv
 ```
 
 This will create the tutorial-env directory if it doesn’t exist, and also create directories inside it containing a copy of the Python interpreter and various supporting files.
@@ -17,5 +17,5 @@ Once you’ve created a virtual environment, you may activate it.
 On Windows, run:
 
 ```bash
-tutorial-env\Scripts\activate
+.venv\Scripts\activate
 ```
